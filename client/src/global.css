@@ -1,0 +1,25 @@
+:root {
+    --s0: 0;
+    --s1: 0.25rem;
+    --s2: 0.5rem;
+    --s3: 0.75rem;
+    --s4: 1rem;
+
+    --color1: #ff322e;
+    --color2: #f5f5f5;
+    --colorText: black;
+
+    --maxwidth: 80rem
+}
+
+*, *::after, *::before {
+    margin: var(--s0);
+    padding: var(--s0);
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
